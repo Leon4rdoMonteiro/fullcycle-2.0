@@ -1,0 +1,5 @@
+1. Bridge (Default network): Create a network that containers can connect easily;
+2. Host: Containers are at the same network of docker host, we can access container ports without make port binds;
+3. Overlay (Docker swarm): Create a network to connect containers there are in different machines;
+4. maclan: Uses the host mac address to make connections between containers
+5. None: Does not create a network, the container runs isolated.
